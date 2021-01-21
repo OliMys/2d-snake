@@ -38,7 +38,7 @@ console.log(snake.state);
 console.log(snake.turn());
 console.log(snake.state.x);
 
-function collisionDetection() {
+/*function collisionDetection() {
   if (snake.x === grid || snake.x === canvas.width - grid) {
     if (snake.y == grid) {
       snake.state = direction.down;
@@ -54,7 +54,7 @@ function collisionDetection() {
       snake.state = direction.left;
     } else { getSingleRandom([direction.right, direction.left]); }
   }
-}
+}*/
 
 function draw() {
   ctx.clearRect(0, 0, canvas.width, canvas.height);
